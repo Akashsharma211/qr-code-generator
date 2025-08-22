@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="Akashlogo2.png" />
+</head>
+<body>
+    <div class="container">
+        <p>Enter your text or url here</p>
+        <input type="text" placeholder="text or url" id="qrText">
+        <div id="imgBox">
+            <img src="" id="qrImg">
+        </div>
+        <button onclick="generateQR()" class="btn">generate your code</button>
+    </div>
+    
+    <script src="qr.js"></script>
+
+</body>
+</html>
